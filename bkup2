@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="8-bit Arcade In.ttf">
 		<style>
 			@font-face {
-            font-family: 8-bit Arcade In;
+            font-family: Kbzipadeedoodah;
             src: url(Kbzipadeedoodah-YG3j.ttf);
         }
 			/* .custom-font {
@@ -36,8 +36,8 @@
                 overflow: hidden;
 			}
 			#info {
-				width: 900px;
-				margin-top:300px;
+				width: 400px;
+				margin-top:120px;
 				margin-left:auto;
 				margin-right:auto;
 				background-color: rgba(180, 180, 180, 0.2);
@@ -90,18 +90,7 @@
 	</head>
 <body>
 	<!-- The main starfield container, fills the entire screen. -->
-	<div id="container"></div>
-
-	<div id="info">
-		
-		<h1>...............WEBSITE IS UNDER CONSTRUCTION...............TRY LATER...BEEP ......Bop.......</a></h1>
-		<span class="bigText">
-				
-		</p>
-		
-	</div>
 	
-	<script src="starfield.js"></script>
 	<script>
 		var container = document.getElementById('container');
 		var starfield = new Starfield();
@@ -130,7 +119,7 @@
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  })(); 
 
 </script>
 </body>

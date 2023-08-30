@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<title>Starfield</title>
-		<link rel="stylesheet" href="8-bit Arcade In.ttf">
+		<link rel="stylesheet" href="Kbzipadeedoodah-YG3j.ttf">
 		<style>
 			@font-face {
-            font-family: 8-bit Arcade In;
+            font-family: Kbzipadeedoodah;
             src: url(Kbzipadeedoodah-YG3j.ttf);
         }
 			/* .custom-font {
@@ -15,7 +15,7 @@
 			body { 
 				margin: 0px;
 				padding: 0px;
-				font-family: '8-bit Arcade In', Arial, sans-serif;
+				font-family: 'Kbzipadeedoodah', Arial, sans-serif;
 				background-color: #000;
 				color: #bbbbbb;
 			}
@@ -36,8 +36,8 @@
                 overflow: hidden;
 			}
 			#info {
-				width: 900px;
-				margin-top:300px;
+				width: 400px;
+				margin-top:120px;
 				margin-left:auto;
 				margin-right:auto;
 				background-color: rgba(180, 180, 180, 0.2);
@@ -92,15 +92,64 @@
 	<!-- The main starfield container, fills the entire screen. -->
 	<div id="container"></div>
 
-	<div id="info">
-		
-		<h1>...............WEBSITE IS UNDER CONSTRUCTION...............TRY LATER...BEEP ......Bop.......</a></h1>
+	<div id="info">{
+		font-family: Kbzipadeedoodah;}
+		<h3><a href="https://github.com/dwmkerr/starfield">Tools</a></h3>
 		<span class="bigText">
+			<p>Here is some unity Editor Tools .</p>
+		</span>
+		
+		<p>
+		Actions:
+		<a href="#" onclick="randomise()">Randomise</a> | 
+		<a href="#" onclick="hideMessage()">Hide message</a>
+		</p>
 				
+		<p>
+		Source Code:
+		<a href="starfield.js" target="blank">starfield.js</a> | 
+		<a href="https://github.com/dwmkerr/starfield">Starfield on GitHub</a>
+		</p>
+		<body>
+			<p id="typing-effect">This is a paragraph with a typing effect.</p>
+		</body>
+		<p>
+		Dave Kerr:
+		<a href="http://www.dwmkerr.com">dwmkerr.com</a> | 
+		<a href="http://www.dwmkerr.com/experiments">Experiments</a></p>
 		</p>
 		
 	</div>
-	
+	<div id="container"></div>
+
+	<div id="info">
+		<div class="custom-container">
+			<img class="container-image" src="Wiki_Test_Image.jpg" alt="Image">
+		<h3><a href="https://github.com/dwmkerr/starfield">Starfield</a></h3>
+		<span class="bigText">
+			<p>Starfield is a very simple javascript class that turns a div into
+				a starfield like the one you can see here.</p>
+		</span>
+		
+		<p>
+		Actions:
+		<a href="#" onclick="randomise()">Randomise</a> | 
+		<a href="#" onclick="hideMessage()">Hide message</a>
+		</p>
+				
+		<p>
+		Source Code:
+		<a href="starfield.js" target="blank">starfield.js</a> | 
+		<a href="https://github.com/dwmkerr/starfield">Starfield on GitHub</a>
+		</p>
+		
+		<p>
+		Dave Kerr:
+		<a href="http://www.dwmkerr.com">dwmkerr.com</a> | 
+		<a href="http://www.dwmkerr.com/experiments">Experiments</a></p>
+		</p>
+		
+	</div>
 	<script src="starfield.js"></script>
 	<script>
 		var container = document.getElementById('container');
