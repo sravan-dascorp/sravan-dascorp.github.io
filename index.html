@@ -74,7 +74,6 @@
             width: 30%; /* 30% of the container's width */
             max-height: 100%; /* Ensure image doesn't exceed container height */
         }
-
         /* For responsiveness */
         @media (max-width: 768px) {
             .custom-container {
@@ -105,7 +104,26 @@
         .tool i {
             font-size: 24px;
             margin-bottom: 3px;
-        }
+        }.portfolio-container {
+      display: flex;
+	  flex-direction: column; /* Stack items vertically */
+      align-items: center; 
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .portfolio-box {
+      width: 45%;
+      height: 150px;
+      background-color: rgba(211, 250, 217, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      color: white;
+      border: 3px solid #ffffff;
+	  margin-bottom: 25px;
+    }
 		</style>
 	</head>
 <body>
@@ -114,19 +132,40 @@
 
 	<div id="info">
 		
-			
+		<h1>Hello!</h1>
 		
-		<h1>...............WEBSITE IS UNDER CONSTRUCTION...............TRY LATER...BEEP ......Bop....... Meanwhile...</a></h1>
+		<h2>WEBSITE IS UNDER CONSTRUCTION.......BEEP ......BOP....... Meanwhile...</h2>
+
+		<div class="portfolio-container">
+			<a href="https://sites.google.com/view/sravandas" class="portfolio-box">
+			    Go To  Portfolio Page
+			</a>
+				<h1> OR</h1>
+			<div class="portfolio-box">
+    <div>
+     
+      <!-- Embed YouTube video -->
+	 
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/k3cKrnlrhq8" frameborder="0" allowfullscreen></iframe>
+	
+	</div>
+  </div>
 
 
-		<h1> <a href="https://sites.google.com/view/sravandas"><p>Check  my temporary <span class="green-text">portfolio page</span> </p> </a> </a></h1>
-		
-<!-- 		<h1> <a href="https://sites.google.com/view/sravandas"><Check my  temporary <span class="green-text">portfolio</span> page.</p> </a> </a></h1> -->
+
+			<!-- <a href="https://sites.google.com/view/sravandas" class="portfolio-box">
+			  Demo Reel Video
+			</a>
+			<p><iframe width="100%" height="100%" src="https://www.youtube.com/embed/dZWEcTXSre8" frameborder="0" allowfullscreen></iframe></p>p>
+		  </div>
+	   -->
+		<!-- <h1> <a href="https://sites.google.com/view/sravandas"><Check my  temporary <span class="green-text">portfolio</span> page.</p> </a> </a></h1>
 
 
-		<h1> <a href="https://sites.google.com/view/sravandas"><p><span class="green-text">PORTFOLIO #1</span>  go to >>>></p> </a> </a></h1>	
+		<h1> <a href="https://sites.google.com/view/sravandas"><p><span class="green-text">Game Dev Demo Reel</span>  go to >>>></p> </a> </a></h1>	
 
-
+		<div class="portfolio-box">Portfolio 1</div>
+		<div class="portfolio-box">Portfolio 2</div> -->
 
 <!-- 		<h1> <p><span class="green-text">PORTFOLIO #2</span>  ↓↓↓↓↓</p> </a> </a></h1>	
 
@@ -141,7 +180,7 @@
 
 		<p>
 			Connect with me on 
-			<a href="www.linkedin.com/in/sravan-das-bb0949" target="_blank">
+			<a href="https://www.linkedin.com/in/sravan-dascorp" target="_blank">
 				<i class="fab fa-linkedin"></i> LinkedIn
 			</a> and 
 			<a href="https://github.com/sravan-dascorp" target="_blank">
